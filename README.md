@@ -2,8 +2,6 @@
 
 An MCP (Model Context Protocol) server that provides formal reasoning and argument validation tools for AI agents. Built on established computational argumentation theories — Dung, Toulmin, Walton, Pollock, Prakken, and ASPIC+.
 
-Migrated from Node.js/TypeScript to Python/uv.
-
 ## Features
 
 - **Dung's Abstract Argumentation Framework**: Extensions (grounded, preferred, stable).
