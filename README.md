@@ -20,7 +20,7 @@ This project uses `uv` for dependency management.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/warrant-mcp.git
+git clone https://github.com/jayden-chmod/warrant-mcp.git
 cd warrant-mcp
 
 # Install dependencies
@@ -30,6 +30,7 @@ uv sync
 ## Usage
 
 ### Running the MCP Server
+
 `warrant-mcp` can be run using `uv run`.
 
 ```bash
@@ -66,24 +67,31 @@ uv run pytest
 ## Theoretical Background
 
 ### Dung's Abstract Argumentation Framework (1995)
+
 Models arguments and attacks as a directed graph. Semantics determine acceptable arguments:
+
 - **Grounded**: Skeptical, unique extension.
 - **Preferred**: Credulous, maximal admissible sets.
 - **Stable**: Conflict-free sets that attack everything outside.
 
 ### Toulmin's Argument Model (1958)
+
 Structures arguments with Claim, Data, Warrant, Backing, Rebuttal, and Qualifier.
 
 ### Walton's Argumentation Schemes (1996)
+
 Presumptive reasoning templates with critical questions (e.g., Expert Opinion, Consequences).
 
 ### Pollock's Defeasible Reasoning (1987)
+
 Rebutting (contradicts conclusion) vs Undercutting (breaks inference) defeaters.
 
 ### Prakken's Dialogue Protocol (2006)
+
 Formal dialogue with commitment stores and speech acts (claim, why, concede, retract).
 
 ### ASPIC+ Disagreement Diagnosis
+
 Classifies disagreements as Factual, Inferential, Preferential, or Goal Conflict.
 
 ## License
